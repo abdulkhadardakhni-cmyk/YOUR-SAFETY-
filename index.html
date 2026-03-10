@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Namma Suraksha</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+</body>
+
+<nav class="navbar">
+
+<a href="index.html">Home</a>
+<a href="admin.html">Admin</a>
+<a href="#report">Report Issue</a>
+
+</nav>
+
+<h1>Namma Suraksha – Civic Sentinel</h1>
+
+<h2>User Login</h2>
+
+<input type="text" id="username" placeholder="Enter Username">
+
+<br><br>
+
+<input type="password" id="password" placeholder="Enter Password">
+
+<br><br>
+
+<button onclick="login()">Login</button>
+
+<p id="loginMessage"></p>
+
+<hr>
+
+<h2>Emergency</h2>
+<button onclick="sendSOS()">🚨 SOS Emergency</button>
+
+<p id="location"></p>
+
+<iframe
+id="map"
+width="400"
+height="300"
+style="border:0">
+</iframe>
+
+<hr>
+<h2>Report Issue</h2>
+
+<select id="issue">
+<option>Pothole</option>
+<option>Illegal Parking</option>
+<option>Traffic Signal Violation</option>
+<option>Road Rage</option>
+</select>
+
+<br><br>
+
+<input type="file" id="photo">
+
+<br><br>
+
+<textarea id="description" placeholder="Describe the issue"></textarea>
+
+<br><br>
+
+<button onclick="submitReport()">Submit Report</button>
+
+
+<h2>Reported Issues</h2>
+
+<ul id="reportList"></ul>
+
+<a href="admin.html">Open Admin Dashboard</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

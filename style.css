@@ -1,0 +1,66 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background-image: url("https://images.unsplash.com/photo-1508057198894-247b23fe5ade");
+background-size:cover;
+background-position:center;
+color:rgba(2, 1, 1, 0.652);
+text-align:center;
+}
+
+.container{
+background:rgba(0,0,0,0.6);
+width:90%;
+max-width:500px;
+margin:40px auto;
+padding:20px;
+border-radius:15px;
+}
+
+h1{
+margin-top:10px;
+}
+
+input, select, textarea{
+width:90%;
+padding:10px;
+margin:10px;
+border:none;
+border-radius:8px;
+}
+
+button{
+padding:12px 20px;
+border:none;
+border-radius:10px;
+background:#ff3b3b;
+color:rgb(35, 31, 31);
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#cc0000;
+}
+
+iframe{
+margin-top:15px;
+border-radius:10px;
+}
+
+.navbar{
+background: rgba(33, 33, 33, 0.8);
+padding:15px;
+text-align:center;
+}
+
+.navbar a{
+color:rgb(240, 235, 235);
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:rgb(68, 68, 58);
+}
