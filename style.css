@@ -1,7 +1,7 @@
 body{
 margin:0;
 font-family: Arial, sans-serif;
-background-image: url("https://images.unsplash.com/photo-1508057198894-247b23fe5ade");
+background-image: url("https://images.unsplash.com/photo-1515165562835-c4c46b90f0b5");
 background-size:cover;
 background-position:center;
 color:rgba(2, 1, 1, 0.652);
@@ -63,4 +63,5 @@ font-size:18px;
 
 .navbar a:hover{
 color:rgb(68, 68, 58);
+
 }
