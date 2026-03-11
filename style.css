@@ -1,13 +1,15 @@
 body{
+body{
 margin:0;
-font-family: Arial, sans-serif;
-background-image: url("https://images.unsplash.com/photo-1515165562835-c4c46b90f0b5");
+
+background-image:url("background-image:url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+
 background-size:cover;
 background-position:center;
-color:rgba(2, 1, 1, 0.652);
-text-align:center;
-}
+background-repeat:no-repeat;
 
+color:white;
+}
 .container{
 background:rgba(0,0,0,0.6);
 width:90%;
@@ -65,3 +67,4 @@ font-size:18px;
 color:rgb(68, 68, 58);
 
 }
+
